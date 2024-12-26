@@ -1,0 +1,75 @@
+site_name: AI变现指南 2024
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+nav:
+  - 第零章 新手必读:
+    - 新手必读概述: chapter0/index.md
+    - 认识AI: chapter0/what-is-ai.md
+    - 基础设施准备: chapter0/preparation.md
+    - 核心工具详解: chapter0/core-tools.md
+  - 第一章 初阶项目:
+    - 初阶项目概述: chapter1/index.md
+    - 视频变现:
+      - 概述: chapter1/video/index.md
+      - 影视解说: chapter1/video/movie-explanation.md
+      - 知识科普: chapter1/video/knowledge.md
+      - 教程培训: chapter1/video/tutorial.md
+      - AI主播: chapter1/video/digital-host.md
+    - 音频变现:
+      - 概述: chapter1/audio/index.md
+      - 声音克隆: chapter1/audio/voice-clone.md
+      - 音乐创作: chapter1/audio/music.md
+      - 有声内容: chapter1/audio/audiobook.md
+      - 直播配音: chapter1/audio/live-dubbing.md
+    - 图片变现:
+      - 概述: chapter1/image/index.md
+      - 个人头像: chapter1/image/avatar.md
+      - 商品广告: chapter1/image/ads.md
+      - 绘本插画: chapter1/image/illustration.md
+      - 表情包: chapter1/image/sticker.md
+    - 文案变现:
+      - 概述: chapter1/writing/index.md
+      - 新媒体文案: chapter1/writing/social-media.md
+      - 小说创作: chapter1/writing/novel.md
+      - 简历优化: chapter1/writing/resume.md
+      - 论文代写: chapter1/writing/thesis.md
+  - 第二章 进阶项目:
+    - 进阶项目概述: chapter2/index.md
+    - AI应用开发: chapter2/app-development.md
+    - AI培训服务: chapter2/training-service.md
+    - AI咨询顾问: chapter2/consulting.md
+  - 第三章 商业变现:
+    - 商业变现概述: chapter3/index.md
+    - 商业模式设计: chapter3/business-model.md
+    - 营销策略: chapter3/marketing.md
+    - 客户获取: chapter3/customer-acquisition.md
+  - 第四章 资源工具:
+    - 资源工具概述: chapter4/index.md
+    - AI工具清单: chapter4/tools.md
+    - 学习资源: chapter4/learning-resources.md
+    - 社区资源: chapter4/communities.md
+  - 第五章 能力提升:
+    - 能力提升概述: chapter5/index.md
+    - 技能提升: chapter5/skill-improvement.md
+    - 项目管理: chapter5/project-management.md
+    - 未来展望: chapter5/future.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
