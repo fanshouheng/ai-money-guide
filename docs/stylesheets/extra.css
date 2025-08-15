@@ -1,0 +1,107 @@
+/* 自定义样式 */
+
+/* 优化卡片网格布局 */
+.grid.cards {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+/* 优化代码块样式 */
+.codehilite {
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* 优化表格样式 */
+table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: 600;
+}
+
+/* 优化按钮样式 */
+.md-button {
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 优化标题样式 */
+h1, h2, h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1:first-child {
+  margin-top: 0;
+}
+
+/* 优化列表样式 */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+/* 优化警告框样式 */
+.admonition {
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .grid.cards {
+    grid-template-columns: 1fr;
+  }
+  
+  table {
+    font-size: 0.9rem;
+  }
+  
+  .md-button {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
+
+/* 自定义高亮颜色 */
+mark {
+  background-color: #fff3cd;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* 优化搜索结果 */
+.md-search-result__meta {
+  color: var(--md-default-fg-color--light);
+}
+
+/* 优化导航 */
+.md-nav__title {
+  font-weight: 600;
+}
+
+.md-nav__item--active > .md-nav__link {
+  font-weight: 600;
+}
